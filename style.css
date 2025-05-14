@@ -1,3 +1,10 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -15,4 +22,49 @@ input, button {
   margin-top: 20px;
   font-weight: bold;
   color: #333;
+}
+/* Secção de introdução */
+.intro {
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+  color: #003049;
+  margin-bottom: 10px;
+}
+
+/* Secção de ações (botões) */
+.actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.actions button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: #005f87;
+}
+
+/* Rodapé */
+footer {
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
 }
